@@ -34,12 +34,7 @@ public class PersonList {
         Person update = findPersonById(id);
         update.updatePerson();
         System.out.println("da cap nhat");
-//        for (int i = 0; i < person.size(); i++) {
-//            Person person = this.person.get(i);
-//            if (person.getId().equals(id)) {
-//                person.updatePerson();
-//            }
-//        }
+
 
     }
 
@@ -47,13 +42,7 @@ public class PersonList {
         Person dele = findPersonById(id);
         dele.updatePerson();
         System.out.println("da xoa ");
-//        for (int i = 0; i < person.size(); i++) {
-//            Person person = this.person.get(i);
-//            if (person.getId().equals(id)) {
-//                this.person.remove(i);
-//                return;
-//            }
-//        }
+
     }
 
     Person findPersonById(String id) {
